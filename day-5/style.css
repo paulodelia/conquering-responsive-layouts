@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.hero {
+  padding: 100px 0;
+  background-color: #23424a;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero__text {
+  width: 70%;
+}
+
+.hero p {
+  margin-bottom: 3em;
+}
+
+.btn {
+  display: inline-block;
+
+  background-color: #38cfd9;
+  padding: 0.5em 1.75em;
+  border-radius: 100px;
+
+  color: #23424a;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  text-align: center;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.75;
+}
