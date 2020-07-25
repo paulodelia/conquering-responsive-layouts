@@ -7,6 +7,10 @@
 
 ---
 
+# :fire: Final Challenge
+
+<img src=".github\final-day.gif"></img>
+
 # :memo: Recap
 
 - Websites are responsive before we write any CSS
